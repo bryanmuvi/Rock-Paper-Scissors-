@@ -1,0 +1,13 @@
+﻿
+
+<div >
+  <p class="sub-title sub-link-description">Ranking Top 10:</p>
+  <ul>
+    <li data-ng-if="ranking.length != 0" class="ranking-results center-block" data-ng-repeat="user in ranking">
+      {{ user.userName }} -
+      Score: {{ user.score }}
+    </li>
+  </ul>
+  <h5 data-ng-if="ranking.length == 0" class="ranking-results center-block"> No users  </h5>
+  <button data-ng-click="reset()" class="general-button center-block btn btn-default" type="submit">Reset Scores</button>   
+</div>

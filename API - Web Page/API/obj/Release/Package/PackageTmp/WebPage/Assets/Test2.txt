@@ -1,0 +1,15 @@
+[   
+		[ 
+			["Mario", "P"], ["Alberto", "S"] 
+		],    
+		[ 
+			["Scott", "R"], ["Carmen", "S"] 
+		],
+ 
+		[        
+			["Max", "S"], ["Gilberto", "P"] 
+		],     			
+                [ 
+			["Felipe", "R"], ["Daniel", "P"] 	   
+		] 
+] 

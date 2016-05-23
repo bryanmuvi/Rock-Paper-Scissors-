@@ -1,0 +1,9 @@
+﻿<h1 class="sub-title sub-link-description"> Play </h1>
+
+<input type="file" ng-model="file.data" file-select="text" file-loaded="analize()" file-error="error=true" file-progress="myProgress($total,$loaded)" class="center-block">
+
+<h5 data-ng-if="error"> Error </h5>
+
+<h5 class="ranking-results center-block" data-ng-if="showResults"> Winner: {{winner}} </h5>
+<h5 class="ranking-results center-block" data-ng-if="showResults"> Runner Up: {{runnerUp}} </h5>
+<h5 class="ranking-results center-block" data-ng-if="showResults"> The results were sent to the database. Check Ranking Tab for more information </h5>
